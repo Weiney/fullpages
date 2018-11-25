@@ -1,0 +1,220 @@
+body {
+    text-shadow: none;
+}
+
+.section1 {
+    background-image: url(../img/map.png);
+    height: 500px;
+    /*width: 100%;*/
+}
+
+.section2 {
+    height: 500px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.section3 {
+    background-image: url(../img/pen.png);
+}
+
+.section1 .title {
+    display: block;
+    position: relative;
+    top: 200px;
+    width: 220px;
+    padding-top: 10px;
+    height: 130px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    background: #58ac7c;
+}
+
+.section1 .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -18px;
+    right: 30px;
+    border: 18px solid transparent;
+    border-right: 18px solid #58ac7c;
+}
+
+.section1 .title p {
+    font-size: 32px;
+    color: #e5e5e5;
+}
+
+
+.section2 .contactType {
+    display: block;
+    width: 1080px;
+    height: 230px;
+    margin: 10px 0 -16px;
+}
+
+.section2 .typeItem {
+    display: inline-block;
+    width: 30%;
+    padding-left: 3%;
+    height: 230px;
+    color: rgba(0,0,0,0.80);
+    vertical-align: bottom;
+}
+
+.section2 .titleItem {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 16px 0;
+}
+
+.section2 .logoItem {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    margin-right: 4px;
+}
+
+.section2 .infoItem {
+    font-size: 16px;
+    margin: 10px 0 10px 2px;
+    font-weight: 100;
+}
+
+.section3 .title {
+    display: block;
+    font-weight: 300;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.section3 .title::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 1px;
+    top: -14px;
+    left: -8px;
+    background: rgba(0, 0, 0, 0.88);
+}
+
+.section3 .title:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 1px;
+    top: -14px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.88);
+}
+
+.section3 .infoContact {
+    width: 840px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+.section3 .infoContact .item {
+    display: inline-block;
+    width: 320px;
+    height: 200px;
+    font-size: 24px;
+    line-height: 160%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.88);
+    vertical-align: bottom;
+}
+
+
+.section3 .infoContact .rightItem {
+    width: 280px;
+    float: right;
+}
+
+.section3 .infoContact .detail {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.section3 .button {
+    display: block;
+    width: 180px;
+    height: 60px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 100;
+    color:  #58ac7c;
+    margin-bottom: 160px;
+    border: #58ac7c solid 2px;
+    border-radius: 10px;
+    transition: 0.3s all cubic-bezier(0.680, 0.055, 0.450, 0.940);
+}
+
+.section3 .button:hover {
+    color: #ffffff;
+    background: #58ac7c;
+}
+
+.section3 .button:active {
+    color: #ffffff;
+    background: rgba(88, 172, 124, 0.76);
+}
+
+.section3 .service {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: #58ac7c;
+    bottom: 0px;
+}
+
+.section3 .service .center {
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.section3 .serviceInfo {
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    vertical-align: bottom;
+
+}
+
+.section3 .leftInfo {
+    margin-left: 50px;
+}
+
+.section3 .rightInfo {
+    width: 450px;
+    float: right;
+}
+
+.section3 .serviceItem {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 24px 0;
+}
+
+.section3 .serviceInfo .logoItem {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    margin-left: 10px;
+    margin-right: 6px;
+}

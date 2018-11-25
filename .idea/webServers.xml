@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54a84360-4ef1-400a-8c77-5ecbb6941716" name="Weiney" url="http://debug.weiney.com">
+        <fileTransfer host="47.107.142.158" port="8899">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="8899" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,221 @@
+body {
+    text-shadow: none;
+}
+
+.section1 {
+    background-image: url(../img/banner8.jpg);
+}
+
+
+.sec1Info {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 30px auto 0;
+    background: rgba(255, 101, 17, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sec1Info::before {
+    content: '';
+    display: inline-block;
+    width: 780px;
+    height: 480px;
+    margin: 8px;
+    border: 2px rgba(255, 255, 255, 0.8) solid;
+
+}
+
+.sec1Info .title {
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: -450px;
+}
+
+.sec1Info .title::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 2px;
+    top: -16px;
+    left: -8px;
+    background: #ffffff;
+}
+
+.sec1Info .title:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 2px;
+    top: -16px;
+    left: 8px;
+    background: #ffffff;
+}
+
+.sec1Info .content {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 20px 40px;
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+.sec2Info {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sec2Info .title {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 200;
+    padding-top: 80px;
+    padding-bottom: 12px;
+
+}
+
+.sec2Info .title::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 1px;
+    top: -12px;
+    left: -8px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.sec2Info .title:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 1px;
+    top: -12px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.sec2Info .item {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 120px;
+    /*background: rgba(231, 247, 94, 0.6);*/
+}
+
+.sec2Info .left {
+    float: left;
+    margin-left: 49px;
+    border-right: rgba(108, 214, 152, 0.8) dashed 2px;
+}
+
+.sec2Info .right {
+    float: left;
+    margin-left: 449px;
+    border-left: rgba(108, 214, 152, 0.8) dashed 2px;
+}
+
+.sec2Info .left::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 392px;
+    width: 13px;
+    height: 13px;
+    border: #6cd698 solid 2px;
+    border-radius: 30px;
+}
+
+.sec2Info .right::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -9px;
+    width: 13px;
+    height: 13px;
+    border: #6cd698 solid 2px;
+    border-radius: 30px;
+}
+
+.sec2Info .right .sDate {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 16px;
+    font-size: 22px;
+    line-height: 64px;
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+    border-radius: 45px;
+    background: #6cd698;
+    font-weight: 100;
+}
+
+.sec2Info .right .sTitle {
+    display: block;
+    position: relative;
+    top: -60px;
+    left: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #58ac7c;
+}
+
+.sec2Info .right .sContent {
+    display: block;
+    position: relative;
+    top: -55px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000000;
+}
+
+.sec2Info .left .sDate {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 16px;
+    font-size: 22px;
+    line-height: 64px;
+    width: 64px;
+    height: 64px;
+    color: #ffffff;
+    border-radius: 45px;
+    background: #6cd698;
+    font-weight: 100;
+}
+
+.sec2Info .left .sTitle {
+    display: block;
+    position: relative;
+    text-align: right;
+    top: 36px;
+    right: 16px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #58ac7c;
+}
+
+.sec2Info .left .sContent {
+    display: block;
+    position: relative;
+    text-align: right;
+    top: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: -100px;
+    margin-right: 100px;
+    color: #000000;
+}
